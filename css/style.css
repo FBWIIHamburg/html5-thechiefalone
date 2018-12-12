@@ -8,17 +8,31 @@ body {
     color: white;
     background-color: black;
   }
+
+  header>h1{
+    padding-left: 100px;
+  }
   
   section {
     margin: 5px;
     padding: 10px;
     background-color: lightgrey;
   }
+
+  section>h2{
+    padding-left: 100px;
+
+  }
   
   article {
     margin: 5px;
     padding: 10px;
     background-color: white;
+  }
+
+  article>h2,p{
+    padding-left: 100px;
+
   }
   
   nav ul {
@@ -29,3 +43,9 @@ body {
     display: inline;
     margin: 5px;
   }
+
+  nav>ul{
+    padding-left: 100px;
+
+  }
+
