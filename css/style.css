@@ -24,6 +24,7 @@ section {
   background-color: lightgrey;
   margin: 5px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
 }
 section>h2{
