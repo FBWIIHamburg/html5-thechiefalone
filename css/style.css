@@ -49,7 +49,39 @@ nav ul {
 
 nav ul li {
   margin: 5px;
-  /* padding: 14px 16px; */
   list-style-type: none;
-
+}
+@media only screen and (max-width : 900px) {
+  nav ul{
+    display: block;
+  }
+  header{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  article{
+    flex: 45%;
+  }
+  section{
+    margin: 0;
+    padding: 0;
+  }
+} 
+@media only screen and (max-width : 765px) {
+  nav ul{
+    display: block;
+  }
+  header{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  article{
+    flex: 100%;
+  }
+  section{
+    margin: 0;
+    padding: 0;
+  }
 }
